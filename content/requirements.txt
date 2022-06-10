@@ -1,3 +1,4 @@
 jupyter-book
 matplotlib
 numpy
+nimare==0.0.12rc6
