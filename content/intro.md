@@ -1,11 +1,24 @@
-# Welcome to your Jupyter Book
+# Meta-Analyses in Python
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## What is meta-analysis
 
-Check out the content pages bundled with this sample book to see more.
+Meta-analysis is the statistical aggregration of group level results.
+Meta-analysis does not require the 
+- datasets: mega, meta
+  - group: GLM, mega
+    - subject: GLM, mega
+      - session: GLM, mega
+        - run: GLM, mega
+
+## How is meta-analysis in neuroimaging different from your standard, effect-size meta-analysis?
+
+standard meta-analysis is aggregating single variables, whereas neuroimaging meta-analyses are
+- unique because:
+  - coordinates require special processing
+  - there is a spatial extent
+
+## Why would you want to do a meta-analysis?
+get consensus on a scientific question
 
 ```{tableofcontents}
 ```
